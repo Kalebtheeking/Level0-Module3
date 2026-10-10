@@ -13,7 +13,7 @@ public class ChooseYourOwnAdventure {
 		
 		String adventure = JOptionPane.showInputDialog("There are two paths to get to the escape helicopter. Both are about 100 miles because the helicopter cant be in foreign territory."
 				+ "\nwhich path do you take? path one, or path two?"
-				+ "\n path 1- 1, path 2- 2");
+				+ "\n path 1- 1, path 2- 2");{
 			
 			if (adventure.equals("1")) {
 			String path1 = JOptionPane.showInputDialog(null,"you have chosen path 1. "
@@ -32,21 +32,34 @@ public class ChooseYourOwnAdventure {
 						+ "\n up ahead you see a black panther very vividly. you are unsure if it can see you or not."
 						+ "\n shooting it will alert the jungle people where you are, and will also waste ammo if you miss."
 						+ "\n getting away would work better if you are able to, but it may be hard if the panther has already seen you"
-						+ " ");
+						+ "\n hide - 1, shoot- 2");
+				if(keepGoing.equals("1")){
+					String howHide = JOptionPane.showInputDialog(null,"you have chosen to hide."
+							+ "\n will you climb a tree, or run away? running will be louder, but you can get out of sight fast"
+							+ "\n climbing a tree will have a low chance of alerting the panther, but the panther can climb very easily if  ");
+				}
 				
 				
 				
-				
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 					}
 				}
-			
-
-	
-	
-	
-	
-	}
-	
+			}
 
 	
 	
@@ -54,6 +67,7 @@ public class ChooseYourOwnAdventure {
 	
 	
 	
+
 	
 	
 	
@@ -61,4 +75,10 @@ public class ChooseYourOwnAdventure {
 	
 	
 	
+	
+	
+	
+	
+	
+				}
 }
