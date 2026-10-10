@@ -15,13 +15,13 @@ public class EnginngeeringFlowchart {
 			JOptionPane.showMessageDialog(null,"good");
 		}
 		else if (doesIt.equals("no")) {
-			JOptionPane.showMessageDialog(null,"insertImage- ducktape");
+			JOptionPane.showMessageDialog(null,"", "use wd40", JOptionPane.ERROR_MESSAGE, new ImageIcon("src/_01_else_if/_4_are_you_happy/ducktape.png"));
 		}
 	}
 	else if (flowChart.equals("no")) {
 		String doesIt = JOptionPane.showInputDialog("should it?");
 		if (doesIt.equals("yes")) {
-			JOptionPane.showMessageDialog(null,"insertImage- wd40", "", 0, new ImageIcon("/Level0-Module3/src/_01_else_if/_4_are_you_happy/Screen Shot 2026-09-19 at 11.15.55 AM.png"));
+			JOptionPane.showMessageDialog(null,"", "use wd40", JOptionPane.ERROR_MESSAGE, new ImageIcon("src/_01_else_if/_4_are_you_happy/wd40.png"));
 		}
 		else if (doesIt.equals("no")) {
 			JOptionPane.showMessageDialog(null,"good");
