@@ -38,7 +38,7 @@ public class ChooseYourOwnAdventure {
 							+ "\n will you climb a tree, or run away? running will be louder, but you can get out of sight fast"
 							+ "\n climbing a tree will have a low chance of alerting the panther, but the panther can climb very easily if  ");
 				}
-				
+				 
 				
 				
 					
