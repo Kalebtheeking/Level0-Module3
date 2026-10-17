@@ -5,6 +5,7 @@ package _02_loop_variables._2_shiny_objects;
 import java.io.File;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import javax.swing.JOptionPane;
 
 
 
@@ -26,11 +27,16 @@ public class ShinyObjects {
 		// 1. Call the method below to play Mister Zee
 		
 		
-		// 2. Ask the user how many shiny objects they want
 		
+		// 2. Ask the user how many shiny objects they want
+		String shiny = JOptionPane.showInputDialog(null,"how many shiny objects do yu want");
+		int shiny1 = Integer.parseInt(shiny);
 		
 		// 3. Play the sound that many times
-
+		
+		for(int j = 0; j<shiny1; j++) {
+			playMisterZee();
+		}
 
 	}
 
